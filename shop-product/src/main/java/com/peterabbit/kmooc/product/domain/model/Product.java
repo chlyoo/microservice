@@ -27,7 +27,7 @@ public class Product {
 	@Enumerated(EnumType.STRING)
 	private ColorType colorType;
 
-	private String address;
-	private String email;
+	private String description;
+	private int price;
 
 }

@@ -12,6 +12,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class Money {
 	
-	private String homeAddress;
 	private int amount;
 }

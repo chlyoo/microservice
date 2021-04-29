@@ -12,6 +12,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class ProductDescription {
 	
-	private String homeAddress;
-	private int zipCode;
+	private String itemDescription;
 }
