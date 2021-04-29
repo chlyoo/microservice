@@ -1,6 +1,8 @@
-package com.peterabbit.kmooc.domain.model;
+package com.peterabbit.kmooc.account.domain.model;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -19,6 +21,12 @@ public class Account {
 	private Long id;
 	
 	private String name;
+	@Enumerated(EnumType.STRING)
+	private MemberType memberType;
+
+	@Enumerated(EnumType.STRING)
+	private MembershipLevelType membershipLevel;
+
 	private String address;
 	private String email;
 

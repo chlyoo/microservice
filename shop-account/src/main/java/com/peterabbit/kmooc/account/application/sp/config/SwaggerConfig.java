@@ -1,4 +1,4 @@
-package com.peterabbit.kmooc.application.sp.config;
+package com.peterabbit.kmooc.account.application.sp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

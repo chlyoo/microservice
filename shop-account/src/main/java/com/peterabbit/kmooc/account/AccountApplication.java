@@ -1,4 +1,4 @@
-package com.peterabbit.kmooc;
+package com.peterabbit.kmooc.account;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
