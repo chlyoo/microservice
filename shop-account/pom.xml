@@ -9,7 +9,7 @@
 		<version>1.5.18.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.peterabbit.kmooc.account</groupId>
 	<artifactId>shop-account</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>shop-account</name>
